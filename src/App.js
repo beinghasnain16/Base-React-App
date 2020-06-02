@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+	<h1>Hello, React!</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Successfully deployed <strong>React App</strong> to <em>Surge</em>.
         </p>
         <a
           className="App-link"
