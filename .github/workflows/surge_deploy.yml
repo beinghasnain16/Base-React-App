@@ -21,7 +21,7 @@ jobs:
 
     # Install NodeJS
     - name: Install node.js
-      uses: actions/setup-node@v2.beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 14
     # Install Yarn
