@@ -9,7 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 	<h1>Hello, React!</h1>
         <p>
-          Successfully deployed <strong>React App</strong> to <em>Surge</em>.
+          Successfully deployed <strong>React App</strong> to <em>Surge</em>.</br>
+	  Hasnain Ali comlpeted Assignment.
         </p>
         <a
           className="App-link"
