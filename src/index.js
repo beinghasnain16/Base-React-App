@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles.css';
+import './style.css';
+import FullName from './lesson1.js';
+import MediaCard from './MediaCard';
 
-function MediaCard(props) {
-   return <div>
-		<h2>{props.title}</h2>
-		<p>{props.body}</p>
-		<img src={props.image} alt={props.title}/></div>;
-}
+function Lessons() {
+	return <div className='lessonsdiv'>
+		<h2>Hello React</h2>
+		<h3>These lessons are from Dave Ceddia React Tutorial</h3>
+		<FullName FirstName='Hasnain' LastName='Ali'/>
+		<MediaCard title='React' url='https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png' body='A JavaScript library 		for building user interfaces'/>
+		</div>
+	}
 
+ReactDOM.render(<Lessons/>, document.querySelector('#root'));
 
-
-ReactDOM.render(<MediaCard class='media'
-				title="React"
-				body="React is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
-				image="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"/>, document.querySelector('#root'));
