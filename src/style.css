@@ -1,5 +1,11 @@
-body {
+html, body, #root, .room{
+	text-align: center;
+	margin: 0;
+	background-color: #FFF;
+	color: #000;
+	height: 100vh;
+}
+.dark {
 	background-color: #222;
 	color: #FFF;
-	text-align: center;
 }
